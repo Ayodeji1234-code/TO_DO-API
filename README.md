@@ -47,7 +47,8 @@ content-type: application/json
 
 `/docs` lists every endpoint and lets you run the full CRUD cycle with "Try it out."
 
-<img width="2560" height="1440" alt="swagger screenshot png" src="https://github.com/user-attachments/assets/4f2d335b-e80b-44dd-ab71-9c68a226685e" />
+<img width="2555" height="1296" alt="swagger screenshot png" src="https://github.com/user-attachments/assets/1b3dba22-3bb8-4937-93a0-0b1e1a062442" />
+
 
 
 ## The mortality experiment
