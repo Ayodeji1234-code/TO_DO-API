@@ -63,20 +63,18 @@ Opened `tasks.db` in [DB Browser for SQLite](https://sqlitebrowser.org/) and ran
 SELECT * FROM tasks WHERE done = 1;
 ```
 
-<!-- Paste what it returned here, e.g.: "Returned 2 rows — the tasks I'd marked done." -->
+Returned 1 row — the one task I'd marked as done.
 
 Calling `GET /tasks` from the API right after showed the exact same data — DB Browser and the API are reading the same file, with no syncing step in between.
 
-![DB Browser screenshot](db-browser-screenshot.png)
+<img width="2556" height="1356" alt="db-browser-screenshot" src="https://github.com/user-attachments/assets/97f9ef80-df7e-4b35-8206-c77e41a8b5b6" />
 
-<!-- Take a screenshot of tasks.db open in DB Browser (the Browse Data or Execute SQL tab),
-     save it as db-browser-screenshot.png in this repo, and commit it. -->
 
 ## Swagger UI
 
 `/docs` lists every endpoint and lets you run the full CRUD cycle with "Try it out."
+<img width="2555" height="1296" alt="swagger screenshot" src="https://github.com/user-attachments/assets/0faefd17-af6f-4a87-9339-01abaf0f50e9" />
 
-![Swagger UI screenshot](swagger-screenshot.png)
 
 ## What changed since A1
 
